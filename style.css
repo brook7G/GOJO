@@ -58,7 +58,7 @@ button.normal{
     font-weight: 600;
     padding: 15px 30px;
     color: #000;
-    background-color: #fff;
+    background-color: #088178;
     border-radius: 4px;
     cursor: pointer;
     border: none;
@@ -441,11 +441,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
     flex-wrap: wrap;
 }
 
 #sm-banner .banner-box {
     display: flex;
+    box-sizing: inherit;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -510,11 +512,11 @@ body {
 
 }
 #sm-banner .banner-box2 span{
-    color: rgb(116, 8, 130);
+    color: white;
     font-size: 14px;
     font-weight: 550;
     padding-bottom: 15px;
-    padding-left: 15.5%;
+    padding-left: 5%;
 }
 
 
@@ -540,6 +542,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0 80px;
 }
 
 #banner3 .banner-box {
@@ -561,17 +564,89 @@ body {
 }
 
 #banner3 h2{
-    color: white;
+    color: rgb(255, 238, 2);
     font-size: 22px;
     font-weight: 900;
+    padding-top: 110px;
+   
 
 }
+
+
 
 #banner3 h3{
-    color: white;
+    color: rgb(10, 248, 102);
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
+    padding-bottom: 0;
+    
 
 }
 
+#banner3 .banner-box2 {
+    background-image: url("img/banner/ban5.avif");
 
+}
+
+#banner3 .banner-box3 {
+    background-image: url("img/banner/ban6.jpg");
+
+}
+
+#newsLetter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("img/banner/ban11.jpg");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+#newsLetter h4 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 238, 2);
+}
+
+#newsLetter p {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 248, 95);
+
+}
+
+#newsLetter p span {
+
+    color: rgb(251, 255, 0);
+
+}
+
+#newsLetter .form {
+    display: flex;
+    width: 40%;
+    
+}
+
+
+#newsLetter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsLetter button {
+    border-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
