@@ -656,7 +656,9 @@ footer {
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
+    margin: auto;
     width: 100%;
+    
 }
 
 footer .col {
@@ -664,6 +666,7 @@ footer .col {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
+    /* background-color: black; */
 }
 
 footer .footerLogo {
