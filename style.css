@@ -154,6 +154,11 @@ body {
 
 }
 
+/* #hero .image{
+    width: 1470px;
+    height: 980px; 
+ } */
+
 #hero h4{
     padding-bottom: 15px;
 
@@ -656,7 +661,7 @@ footer {
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
-    margin: auto;
+
     width: 100%;
     
 }
