@@ -9,9 +9,11 @@
     
 }
 #header a img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+    filter: drop-shadow(7px 10px 10px rgb(166, 133, 133));
+
 }
 h1 {
     font-size: 50px;
@@ -82,7 +84,7 @@ button.white{
 
 button.banner2{
 
-    color: #0a0000;
+    color: #ffffff;
 }
 
 body {
@@ -98,7 +100,8 @@ body {
     justify-content: space-between;
     padding: 15px 80px;
     background: #e3e6f3;
-    box-shadow: o 5px 15px rgba(0, 0, 0, 0.06);
+    height: 90px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
     position: sticky;
     top: 0;
@@ -141,7 +144,8 @@ body {
 /* Home Page */
 
 #hero{
-    background-image: url("/GOJO/img/background.avif");
+    background-image: url("/GOJO/img/banner/couch.png");
+    /* background-color: thistle; */
     height: 157vh;
     width: 100%;
     background-size: cover;
@@ -154,10 +158,10 @@ body {
 
 }
 
-/* #hero .image{
-    width: 1470px;
-    height: 980px; 
- } */
+#hero .image{
+    width: device-width, initial-scale=1.0;
+    /* height: 25px;  */
+ }
 
 #hero h4{
     padding-bottom: 15px;
@@ -197,12 +201,18 @@ body {
 #feature .fe-box{
     width: 188px;
     text-align: center;
-    padding: 25px 15px;
+    /* padding: 25px 15px; */
+    padding: 10px 12px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
     border: 1px solid #cce7d0;
     border-radius: 4px;
     margin: 15px 0 ;
+    position: relative;
 }
+/* display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap; */
 
 #feature .fe-box:hover {
     box-shadow: 10px 10px 54px rgba(29, 20, 199, 0.295);
@@ -249,6 +259,13 @@ body {
     background-color: rgb(226, 225, 142, 226, 123);
 
 }
+/* #feature.section-p1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+} */
 
 #product1 {
     text-align: center;
