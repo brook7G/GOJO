@@ -1,0 +1,9 @@
+{
+  "name": "gojo",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "repository": "https://github.com/brook7G/GOJO.git",
+  "author": "brook7g <birukefekadu632@gmail.com>",
+  "license": "LICENSE.txt"
+}
