@@ -144,7 +144,7 @@ body {
 /* Home Page */
 
 #hero{
-    background-image: url("/GOJO/img/banner/couch.png");
+    background-image: url("/img/banner/couch.png");
     /* background-color: thistle; */
     height: 157vh;
     width: 100%;
@@ -430,7 +430,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("/GOJO/img/banner/ban1.jpg");
+    background-image: url("/img/banner/ban1.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -482,7 +482,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url("/GOJO/img/banner/ban4.jpg");
+    background-image: url("/img/banner/ban4.jpg");
     min-width: 350px;
     width: 48%; 
     height: 50vh;
@@ -496,7 +496,7 @@ body {
 
 
 #sm-banner .banner-box2 {
-    background-image: url("/GOJO/img/banner/ban3.jpg");
+    background-image: url("/img/banner/ban3.jpg");
     margin-left: -45px;
 }
 
@@ -622,12 +622,12 @@ body {
 }
 
 #banner3 .banner-box2 {
-    background-image: url("/GOJO/img/banner/ban5.avif");
+    background-image: url("/img/banner/ban5.avif");
 
 }
 
 #banner3 .banner-box3 {
-    background-image: url("/GOJO/img/banner/ban6.jpg");
+    background-image: url("/img/banner/ban6.jpg");
 
 }
 
@@ -636,7 +636,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-image: url("/GOJO/img/banner/ban11.jpg");
+    background-image: url("/img/banner/ban11.jpg");
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
