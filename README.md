@@ -21,7 +21,7 @@ GOJO is an eCommerce website designed to provide a seamless shopping experience 
 ## Setup
 To set up GOJO on your local machine, follow these steps:
 1. Clone the repository: `git clone https://github.com/brook7G/GOJO.git`
-2. Navigate to the project directory: `cd g`
+2. Navigate to the project directory: `cd GOJO`
 3. Install dependencies: `npm install` or `yarn install` (if you're using Yarn)
 4. Start the development server: `npm start` or `yarn start`
 
