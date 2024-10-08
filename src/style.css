@@ -141,6 +141,11 @@ body {
     left: 20px;
 }
 
+#mobile {
+    display: none;
+    align-items: center;
+}
+
 /* Home Page */
 
 #hero{
@@ -771,7 +776,7 @@ footer .copywright{
         justify-content: flex-start;
         position: fixed;
         top: 0;
-        right: 0px;
+        right: -300px;
         height: 100vh;
         width: 300px;
         background-color: #e3e6f3;
@@ -781,5 +786,16 @@ footer .copywright{
     
     #navbar li{
         margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
     }
 }
