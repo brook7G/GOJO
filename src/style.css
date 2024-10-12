@@ -939,6 +939,19 @@ footer .copywright{
     footer .copywright {
         text-align: start;
     }
+
+    /*single product*/
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-top: 0px;
+    }  
+
 }
 
 /* SHOP PAGE */
