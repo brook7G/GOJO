@@ -769,104 +769,6 @@ footer .copywright{
     text-align: center;
 }
 
-/* START MEDIA QUERY */
-
-@media (max-width:799px) {
-    .section-p1{
-        padding: 40px 40px;
-    }
-    #navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top: 0;
-        right: -300px;
-        height: 100vh;
-        width: 300px;
-        background-color: #e3e6f3;
-        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 80px 0 0 10px;
-        transition: 0.4s;
-    }
-
-    #navbar.active{
-        right: 0px;
-    }
-    
-    #navbar li{
-        margin-bottom: 25px;
-    }
-
-    #mobile {
-        display: flex;
-        align-items: center;
-    }
-
-    #mobile i{
-        color: #1a1a1a;
-        font-size: 24px;
-        padding-left: 20px;
-    }
-
-    #close{
-        display: initial;
-        color: #222;
-        position: absolute;
-        top: 30px;
-        left: 30px;
-        font-size: 24px;
-    }
-
-    #lg-bag{
-        display: none;
-    }
-
-    #hero {
-        height: 75vh;
-        background-position: top 30% right 30%;
-        padding: 0 80px;
-    }
-
-    #feature {
-        justify-content: center;
-    }
-
-    #feature .fe-box {
-        margin: 15px 15px;
-    }
-
-    #product1 .pro-container{
-        justify-content: center;
-    }
-
-    #product1 .pro {
-        margin: 15px 3px;
-    }
-
-    #banner {
-        height: 20vh;
-    }
-
-    #sm-banner .banner-box {
-        width: 100%;
-        height: 30vh;
-    }
-
-    #banner3 {
-        padding: 0 40px;
-    }
-
-    #banner3 .banner-box {
-        width: 28%;
-    }
-
-    #newsletter .form{
-        width: 70%;
-    }
-}
-
 /* SHOP PAGE */
 
 #page-header {
@@ -1099,9 +1001,238 @@ footer .copywright{
 }
 /* CONTACT PAGE  */
 
+#page-header-contact {
+    background-image: url("/img/products/banner-about.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
 
+#page-header-contact h2,
+#page-header-contact p {
+    color: #000000;
+}
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details {
+    width: 40%;
+}
+
+#contact-details .details span,
+#form-details form span h2 {
+    font-size: 12px;
+}
+
+#contact-details .details h2 {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-details .details h3 {
+    font-size: 16px;
+    padding-bottom: 15px 0;
+}
+
+#contact-details .details li {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-details .details li i {
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#contact-details .details li p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#contact-details .map {
+    width: 55%;
+    height: 400px;
+}
+
+#contact-details .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#form-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-details form input,
+#form-details form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form button {
+    background-color: #088178;
+    color: #fff;
+}
+
+#form-details .people div {
+    padding: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#form-details .people div img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+#form-details .people div p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#form-details .people div span {
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
 /* CART PAGE  */
+/* START MEDIA QUERY */
 
+@media (max-width:799px) {
+    .section-p1{
+        padding: 40px 40px;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3e6f3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.4s;
+    }
+
+    #navbar.active{
+        right: 0px;
+    }
+    
+    #navbar li{
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close{
+        display: initial;
+        color: #222;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-size: 24px;
+    }
+
+    #lg-bag{
+        display: none;
+    }
+
+    #hero {
+        height: 75vh;
+        background-position: top 30% right 30%;
+        padding: 0 80px;
+    }
+
+    #feature {
+        justify-content: center;
+    }
+
+    #feature .fe-box {
+        margin: 15px 15px;
+    }
+
+    #product1 .pro-container{
+        justify-content: center;
+    }
+
+    #product1 .pro {
+        margin: 15px 3px;
+    }
+
+    #banner {
+        height: 20vh;
+    }
+
+    #sm-banner .banner-box {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #banner3 {
+        padding: 0 40px;
+    }
+
+    #banner3 .banner-box {
+        width: 28%;
+    }
+
+    #newsletter .form{
+        width: 70%;
+    }
+
+    /*contact page*/
+
+    #form-details {
+        padding: 40px;
+    }
+
+    #form-details form{
+        width: 50%;
+    }
+}
 
 /* MEDIA-QUERY-> MOBILE */
 
@@ -1231,5 +1362,32 @@ footer .copywright{
 
     #about-app .video {
         width: 100%;
+    }
+
+    /* contact page */
+
+    #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details .details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #contact-details .map {
+        width: 100%;
+    }
+
+    #form-details {
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+
+    #form-details form{
+        width: 100%;
+        margin-bottom: 30px;
+
     }
 }
