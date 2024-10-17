@@ -8,7 +8,7 @@
 - [License](#license)
 
 ## Introduction
-GOJO is an eCommerce website designed to provide a seamless shopping experience for customers looking for high-quality products. The website features a wide range of products, from modern houses to furniture, all at competitive prices. With GOJO, you can easily browse through our collection, add items to your cart, and make purchases with ease.
+GOJO is an eCommerce website designed to provide a seamless experience for customers looking for high-quality living houses to restaurants and offices to run their bussiness in. The website features a wide range, from modern houses to furniture, all at competitive prices. With GOJO, you can easily browse through our collection, add items to your cart book your place to live , sell and buy your lovely houses from different cities of ethiopia, and make purchases with ease.
 
 ## Features
 - **Product Catalog**: Browse through a wide range of products, including modern houses, furniture, and more.
