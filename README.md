@@ -38,7 +38,7 @@ GOJO is licensed under the MIT License. See the [LICENSE](LICENSE) file for more
 ## Contact
 For any questions or support, please contact us at:
 - Email: buroofek@gmail.com
-- Phone: +251 93874 1514
+- Phone: +251-938-741-514
 
 Thank you for using GOJO!
 
