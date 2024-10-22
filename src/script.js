@@ -13,6 +13,10 @@
 const bar = document.getElementById('bar');
 const nav = document.getElementById('navbar');
 const close = document.getElementById('close');
+const product_1 = document.getElementById('product1');
+const product_2 = document.getElementById('product2');
+const banner_ = document.getElementById('banner3');
+
 
 if (bar) {
     bar.addEventListener('click', ()=>{
@@ -23,5 +27,23 @@ if (bar) {
 if (close) {
     close.addEventListener('click', () =>{
         nav.classList.remove('active')
+    })
+}
+
+if(product1){
+    product_1.addEventListener('click', () =>{
+        window.location.href='singleproduct.html';
+    })
+}
+
+if (product2) {
+    product_2.addEventListener('click', ()=> {
+        window.location.href='singleproduct.html'
+    })
+}
+
+if(banner3){
+    banner_.addEventListener('click',()=>{
+        window.location.href='shop.html'
     })
 }
